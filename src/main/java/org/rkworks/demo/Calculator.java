@@ -32,8 +32,7 @@ public class Calculator implements ICalculator {
 	@Override
 	public int divison(int a, int b) throws Exception {
 		b=0;
-		int c =a/b;
-		System.out.println(c);
+		int c =a/b;		
 		if (b == 0) {
 			throw new Exception("Divider can't be zero");
 		}
