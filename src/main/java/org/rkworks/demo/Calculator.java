@@ -2,12 +2,19 @@ package org.rkworks.demo;
 
 public class Calculator implements ICalculator {
 
+	
+	/**
+	* Add two numbers 
+	* */
 	@Override
 	public int sum(int a, int b) {
 		return a + b;
 	}
 
-
+	 
+	/**
+	* Subtract two numbers 
+	* */
 	@Override
 	public int subtraction(int a, int b) {
 		return a - b;
