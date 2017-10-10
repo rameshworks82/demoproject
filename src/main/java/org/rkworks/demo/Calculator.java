@@ -28,7 +28,9 @@ public class Calculator implements ICalculator {
 		return a * b;
 	}
 
-
+	/**
+	* Divide  two numbers 
+	* */
 	@Override
 	public int divison(int a, int b) throws Exception {
 		b=0;
