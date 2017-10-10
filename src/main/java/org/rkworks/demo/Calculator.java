@@ -27,7 +27,7 @@ public class Calculator implements ICalculator {
 	}
 
 	/**
-	* Divide  two numbers 
+	* Divide  two numbers ,Exception will be thrown if divide by zero
 	* */
 	@Override
 	public int divison(int a, int b) throws Exception {
