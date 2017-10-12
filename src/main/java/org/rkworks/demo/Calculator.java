@@ -40,7 +40,9 @@ public class Calculator implements ICalculator {
 		return a / b;
 	}
 	
-
+	/**
+	* Compare two numbers
+	* */
 	@Override
 	public boolean equalIntegers(int a, int b) {
 		boolean result = false;
