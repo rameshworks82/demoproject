@@ -42,6 +42,13 @@ public class Calculator implements ICalculator {
 	}
 	
 
-	
+	@Override
+	public boolean equalIntegers(int a, int b) {
+		boolean result = false;
+		if (a == b) {
+			result = true;
+		}
+		return result;
+	}
 	
 }
